@@ -92,8 +92,7 @@ class Program
 
         Console.WriteLine("\nПеревірка:");
         for (int i = 0; i < 7; i++)
-        {
-            double diff = Math.Abs(leftSides[i] - rightSides[i]);
+        {           
             Console.WriteLine($"Р-ння {i + 1}: ліва частина = {leftSides[i]}, права частина = {rightSides[i]}");
         }
     }
